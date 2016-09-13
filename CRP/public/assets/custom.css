@@ -1,0 +1,151 @@
+body{
+	margin-bottom:50px;
+  background:#ffffff;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+h1{
+  color: rgb(0,165,229);
+}
+
+.navbar-default{
+  background-color: rgb(0,165,229);
+}
+
+.dashbord-notice{
+  border: 2px solid rgb(0,165,229);
+  background-color: rgb(0,165,229);
+  padding-bottom: 30px;
+}
+
+
+.font-view{
+	//margin-top: 60px;
+}
+.first-row{
+	margin-bottom: 30px;
+}
+.front-img{
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.footer{
+    position:fixed;
+    height:50px;
+    background-color:rgb(0,165,229);
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+}
+
+
+
+.full-form{
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 20px;
+}
+.form-control{
+	background-color: #E0EEEE;
+	color: #;
+}
+
+.add_user{
+	margin-bottom: 30px;
+}
+
+.search{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.navbar-default .navbar-toggle{
+  border-color: rgb(0,165,229);
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  color: #fff;
+  font-size: 20px;
+}
+
+
+.navbar-default .navbar-brand{
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:hover{
+  color: #fff;
+  font-size: 30px;
+}
+
+.footer-disc{
+  color: #fff;
+  font-size: 19px;
+}
+
+.sucmsg{
+  color: #fff;
+  background-color: rgb(0,220,188);
+  font-size: 25px;
+  font-style: italic;
+}
+
+.img-right{
+  margin-left: 300px;
+  box-shadow: 3px 3px 3px #000000;
+
+}
+.invalid-msg{
+
+  font-size: 20px;
+  font-style: bold;
+	color: #ff0000;
+}
+
+
+/* Pulse Grow */
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes front-img {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.front-img {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.front-img:hover, .front-img:focus, .front-img:active {
+  -webkit-animation-name: front-img;
+  animation-name: front-img;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
